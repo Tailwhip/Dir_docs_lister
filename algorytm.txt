@@ -1,0 +1,12 @@
+    Zapytaj o numer KZ
+    Sprawdź numer KZ
+        Podziel nr KZ na trzy człony: "int(trzycyfrowy) - int(dwu lub trzycyfrowy)"
+            Jeżeli brakuje myślnika - exception
+            Jeżeli pierwszy lub drugi człon nie jest int - exception
+            Jeżeli pierwszy lub drugi człon nie jest trzycyfrowy - exception
+            Jeżeli pierwszy człon nie zawiera się w liście dopuszczonych projektów - exception
+
+    Pobierz listę elementów w bierzącej lokalizacji
+    Sprawdź każdy element z listy
+        Jeżeli element jest katalogiem - utwórz rozsuwalną grupę w pliku excell
+        Jeżeli element jest plikiem - dopisz nazwę do ostatnio utworzonej grupy
