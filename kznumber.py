@@ -3,17 +3,17 @@ class kzNumber():
     def __init__(self):
         # making variables
         print("START")
-        self.kz = " "
-        self.kz_I = " "
-        self.kz_dash = " "
-        self.kz_II = " "
+        self.kz = "PPP-NNN"
+        self.kz_I = self.kz[0:3]
+        self.kz_dash = self.kz[3]
+        self.kz_II = self.kz[4:]
         self.kz_fail = True
         self.proj_fail = True
         self.proj_numbers = ["000", "001", "002", "003", "004", "005", "006", "007", "008", "022", "030", "031"]
         self.dash_fail = True
         self.range_fail = True
         self.digits_fail = True
-        self.get_kz()
+        #self.get_kz()
         print("KZ-{}".format(self.kz))
 
     # a function for getting a kz number from user
