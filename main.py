@@ -6,7 +6,8 @@ import doclister
 kz_number = kzn.kzNumber()
 
 # setting a path for listing documents
-path = 'E:/Zajecia/Projekty/14-Inteligentny_pojazd/01-Mechanika'
+path = 'E:/Zajecia/Projekty'
+#'E:/Zajecia/Projekty/14-Inteligentny_pojazd/01-Mechanika'
 # 'E:/Zajecia/Projekty/17-Dir_docs_lister/Dir_docs_lister'
 
 # destination filename
@@ -17,6 +18,6 @@ wb = load_workbook(filename = 'XXX-Lista_dokumentów.xlsx')
 sheet = wb['Lista_dokumentów']
 
 # getting list of documents
-doclister.exportlist(doclister.makelist(path, _doclist = []), sheet, _start = 2)
+doclister.exportlist(doclister.makelist(path, _doclist = []), sheet, kz_number.kz, _start = 2)
 
 wb.save(dest_filename)
