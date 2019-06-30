@@ -6,7 +6,7 @@ import doclister
 kz_number = kzn.kzNumber()
 
 # setting a path for listing documents
-path = 'E:/Zajecia/Projekty'
+path = 'E:/Zajecia/Projekty/14-Inteligentny_pojazd'
 #'E:/Zajecia/Projekty/14-Inteligentny_pojazd/01-Mechanika'
 # 'E:/Zajecia/Projekty/17-Dir_docs_lister/Dir_docs_lister'
 

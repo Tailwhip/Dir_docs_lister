@@ -8,7 +8,7 @@ def makelist(_path, _doclist, _level = 1):
             _doclist.append([_path + '/', item, _level])
             new_path = _path + '/' + item
             makelist(new_path, _doclist, _level=_level+1)
-        else:
+        elif os.path.isfile(_path + '/' + item):
             _doclist.append([_path + '/', item, _level])
     return _doclist
 
