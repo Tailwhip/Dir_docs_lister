@@ -6,14 +6,14 @@ import doclister
 kz_number = kzn.kzNumber()
 
 # setting a path for listing documents
-path = 'E:/Zajecia/Projekty/14-Inteligentny_pojazd'
+path = 'C:/Repozytorium/Approved/031-Pxx0/W031-Pxx0'
 #'E:/Zajecia/Projekty/14-Inteligentny_pojazd/01-Mechanika'
 # 'E:/Zajecia/Projekty/17-Dir_docs_lister/Dir_docs_lister'
 
 # destination filename
-dest_filename = kz_number.kz_I + '-Lista_dokumentów.xlsx'
+dest_filename = 'W' + kz_number.kz_I + '-00-Spis_dokumentacji_wyrobu.xlsx'
 
-wb = load_workbook(filename = 'XXX-Lista_dokumentów.xlsx')
+wb = load_workbook(filename = 'XXX-Szablon_listy.xlsx')
 
 sheet = wb['Lista_dokumentów']
 
