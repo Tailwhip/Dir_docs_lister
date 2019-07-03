@@ -10,3 +10,4 @@
     Sprawdź każdy element z listy
         Jeżeli element jest katalogiem - utwórz rozsuwalną grupę w pliku excell
         Jeżeli element jest plikiem - dopisz nazwę do ostatnio utworzonej grupy
+031-fasdfasdf - błąd
